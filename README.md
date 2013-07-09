@@ -13,8 +13,8 @@ WordPress
 2. Allow your **current IP** or **'any'** to access to remote backups.
 3. Generate an **API KEY**.
 
-Project
--------
+Project (PHP 5+)
+----------------
 
 1. Clone the repository into your system.
 2. Add as much projects as you want to the **$projects** array.
@@ -37,5 +37,3 @@ Project
 3. Open terminal and execute: 
 
      ```sudo php Automate.php```
-
-Note: You should have php as a part of your .bash(mac) or path(windows) variable.
