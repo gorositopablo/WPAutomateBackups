@@ -1,5 +1,5 @@
-WPAutomateBackups
-=================
+WP Automate Backups
+===================
 
 Backup automatization for multiple WordPress instances.
 
