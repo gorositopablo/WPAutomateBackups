@@ -27,14 +27,12 @@ Project
                'api_key'  => 'xxxxxxxxxxxxxxxxxxxxxxxx',
                'method'   => 'both',
                'execute'  => true,
-               'auth'     => 'required', // HTTP Basic authentication
-               'username' => 'username',
-               'password' => 'password'
+               'auth'     => 'required', // HTTP Basic authentication OPTIONAL
+               'username' => 'username', // OPTIONAL
+               'password' => 'password' // OPTIONAL
           )
      );
      ```
-
-'auth', 'username' and 'password' are optional. Fill in only if your WordPress instance has HTTP Basic authentication.
 
 3. Open terminal and execute: 
 
