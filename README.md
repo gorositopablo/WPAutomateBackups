@@ -33,6 +33,7 @@ Project (PHP 5+)
           )
      );
      ```
+You can split the process and the projects into diferent files. To do that add your projects **ProjectsLists.php** array.
 
 3. Open terminal and execute: 
 
