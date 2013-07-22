@@ -1,24 +1,7 @@
 <?php
 
-/**
- * e.x:
- *
- * $projects = array(
- *    array(
- *      'name'     => 'ProjectName',
- *      'url'      => 'www.project-url.com',
- *      'api_key'  => 'xxxxxxxxxxxxxxxxxxxxxxxx',
- *      'method'   => 'both',
- *      'execute'  => true,
- *      'auth'     => 'required',
- *      'username' => 'username',
- *      'password' => 'password'
- *    )
- * );
- * 
- * */
-
 include_once 'AutomateClass.php';
+include_once 'ProjectsList.php';
 
 if (isset($projects) && is_array($projects))
 {
@@ -33,7 +16,7 @@ if (isset($projects) && is_array($projects))
         echo $project['name'].' --> '.$response['status'].'('.$response['code'].')'."\n";
         if ($response['message'] !== '')
         {
-          echo 'Message: '.$response['message']."\n"
+          echo 'Message: '.$response['message']."\n";
         }
 
     } else {

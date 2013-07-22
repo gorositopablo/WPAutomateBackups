@@ -4,6 +4,15 @@
 * Automate WordPress BackUps.
 * This code has a plugin dependency. WP Complete BackUp plugin should be 
 * installed in the WordPress instance you want to do the backup.
+* 
+* USAGE:
+* 1. Install WP Complete Backup plugin in your WordPress instance
+* 2. Allow your IP or 'any' to access to remote backup into the installed 
+*    plugin.
+* 3. Generate an API KEY in WP Complete Backup
+* 4. Add a project to start doing this backups
+* 5. Open the command line and execute: 
+*         'sudo php automate.php'
 */
 class Automate
 {
